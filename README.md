@@ -8,7 +8,10 @@
 Features to be added:
 1. Low Pass filter on D input
 2. Improve D gain calculation
+    (I am looking into fourier diffrentiation on realtime systems for calculating d)
 3. Add some type of auto tune
+4. Improve integral winding
+
 
 A simple and easy to use PID controller in Python. If you want a PID controller without external dependencies that just works, this is for you! The PID was designed to be robust with help from [Brett Beauregards guide](http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/).
 
